@@ -1,9 +1,26 @@
-\contentsline {chapter}{\numberline {1}Inleiding}{2}
-\contentsline {chapter}{\numberline {2}Samenvatting}{3}
-\contentsline {chapter}{\numberline {3}What's missing}{5}
-\contentsline {chapter}{\numberline {4}Who are the developers}{6}
-\contentsline {chapter}{\numberline {5}Welke API's moeten beschikbaar zijn voor de eindgebruiker}{7}
-\contentsline {chapter}{\numberline {6}Wat zit er in een standaard SDK}{8}
-\contentsline {chapter}{\numberline {7}Wat gaat er in de Appsemble SDK zitten?}{9}
-\contentsline {chapter}{\numberline {8}Hoe worden componenten gepubliceerd}{10}
-\contentsline {chapter}{\numberline {9}Conclusies}{11}
+\contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Samenvatting}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Wie ontwikkelt met Appsemble}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}GroenEnZo}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Deel 2}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Deel 3}{6}{section.3.3}
+\contentsline {chapter}{\numberline {4}Welke API's moeten beschikbaar zijn voor de eindgebruiker}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interfacen met app}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Animaties}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Interfacen met interne API's}{8}{section.4.3}
+\contentsline {section}{\numberline {4.4}Interfacen met externe API's}{8}{section.4.4}
+\contentsline {chapter}{\numberline {5}Wat zit er in een standaard SDK}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}Voorbeelden}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}Documentatie}{10}{section.5.2}
+\contentsline {section}{\numberline {5.3}Inzichten op code}{11}{section.5.3}
+\contentsline {section}{\numberline {5.4}Bestaande toolset}{11}{section.5.4}
+\contentsline {chapter}{\numberline {6}Wat gaat er in de Appsemble SDK zitten?}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Beschikbare API's}{13}{section.6.1}
+\contentsline {section}{\numberline {6.2}Voorgemaakte componenten}{14}{section.6.2}
+\contentsline {section}{\numberline {6.3}Documentatie}{14}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hoe worden componenten gepubliceerd}{15}{chapter.7}
+\contentsline {section}{\numberline {7.1}Signing}{15}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hosting}{15}{section.7.2}
+\contentsline {section}{\numberline {7.3}Marktplaats}{16}{section.7.3}
+\contentsline {section}{\numberline {7.4}Laden tijdens runtime}{16}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusies}{18}{chapter.8}
