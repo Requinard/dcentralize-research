@@ -1,0 +1,9 @@
+\contentsline {chapter}{\numberline {1}Inleiding}{2}
+\contentsline {chapter}{\numberline {2}Samenvatting}{3}
+\contentsline {chapter}{\numberline {3}What's missing}{5}
+\contentsline {chapter}{\numberline {4}Who are the developers}{6}
+\contentsline {chapter}{\numberline {5}Welke API's moeten beschikbaar zijn voor de eindgebruiker}{7}
+\contentsline {chapter}{\numberline {6}Wat zit er in een standaard SDK}{8}
+\contentsline {chapter}{\numberline {7}Wat gaat er in de Appsemble SDK zitten?}{9}
+\contentsline {chapter}{\numberline {8}Hoe worden componenten gepubliceerd}{10}
+\contentsline {chapter}{\numberline {9}Conclusies}{11}

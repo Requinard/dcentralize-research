@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper,draft]{scrreprt}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{titling}
+\author{David Diks}
+\title{Stageonderzoek Appsemble}
+\makeindex
+\begin{document}
+
+	\maketitle
+	
+	\newpage
+	
+	\input{before/inleiding.tex}
+	\input{before/samenvatting.tex}
+	
+	\tableofcontents
+	
+	\input{chapter/whats_missing.tex}
+	\input{chapter/who_developers.tex}
+	\input{chapter/which_apis.tex}
+	\input{chapter/standard_sdk.tex}
+	\input{chapter/our_sdk.tex}
+	\input{chapter/publication.tex}
+	\input{after/conclusies.tex}
+	
+	\appendix
+	\input{after/bibliography.tex}
+\end{document}
