@@ -1,32 +1,102 @@
 \chapter{Welke API's moeten beschikbaar zijn voor de eindgebruiker}
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Voor het maken van een SDK is het bijzonder belangrijk om te weten wie het publiek is. Het zomaar ontwikkelen van een SDK zorgt ervoor dat er een rare collectie van ongerelateerde functies voor gaan komen in het uiteindelijke product. \\
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Het doel is dus om een enkel, cohesief pakket te maken. Een voorbeeld hiervan is de JDK\footnote{Java Development Kit, de tools nodig om java te ontwikkelen}. Werk hieraan gebeurt in incrementele stappen. Waarbij iedere release duidelijk een aantal producten heeft, in plaats van een collectie halve API's \cite{wikip1}. \\
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Werk aan de JDK werkt dus in grote libraries, die besloten worden als de roadmap van het Java project. De community heef hier enige invloed op door middel van het java forum.
+
 \section{Interfacen met app}
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Meta-data over de app is belangrijk. Een developer moet toegang hebben tot runtime constantes (Zijnde App ID, naam en gegevens over de huidige status.). Hiervoor is er een simpele "Read-Only"\footnote{Enkel leesbaar, niet schrijfbaar} interface die om deze gegevens heen wrapt.\footnote{Hij omvat alle gegevens en geeft hier simpele toegang toe}
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Toegang zou bestaan uit de volgende onderdelen:
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
-\section{Animaties}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+\begin{itemize}
+	\item Versie-nummer
+	\item App settings (Naam, kleuren en meer)
+	\item Runtime variabelen (Wifi/LTE, batterijstatus, etc)
+\end{itemize}
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+\section{Instellingen}
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
-\section{Interfacen met interne API's}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Instellingen in een App zijn altijd op een plek te bereiken. Hiervoor is al een scherm gedefinie\"{e}rd. Er is hier enkel geen toegang toe. \\
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Met de Settings-Api zou er een geunificeerde toegang zijn tot de instellingen, waarmee een gebruiker zijn eigen instellingen kan aanmaken, en de status hiervan kan inlezen. Dit zorgt ervoor dat een developer snel instelling kan maken en hierop kan reageren
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Deze API bestaat uit de volgende onderdelen:
+
+\begin{itemize}
+	\item Uitlezen van settings
+	\item Registreren van instellingen
+	\item Intellingen programmatisch veranderen
+\end{itemize}
+ 
+\section{Interfacen met Appsemble datastores}
+
+Opslag van data is essentie\"{e}l voor het ontwikkelen van een applicatie. Op het moment slaan de componenten van appsemble al data op in de Appsenble-datastores. \\
+
+Deze interface is echter niet bereikbaar op het moment, aangezien het een intern component is om mee te ontwikkelen en dus enkel beschikbaar is voor de d-centralize developers. \\
+
+Het publiekelijk maken van deze API voor bepaalde doeleinden maakt het simpeler om componenten te ontwikkelen, aangezien de component developer zelf geen backend zal hoeven te hosten. \\
+
+Er zullen echter bepaalde stops moeten worden gelegd om te zorgen dat developers niet te ver gaan met het gebruiken. Hiervoor zijn een paar oplossingen;
+
+\begin{itemize}
+	\item Gebruikslimieten per dag
+	\item Vastgestelde gratis opslaglimieten
+	\item Enkel bepaalde types opslag regelen. (Text, plaatjes of andere)
+\end{itemize}
+
+De API zou dan bestaan uit de volgende onderdelen;
+
+\begin{itemize}
+	\item Opslaan van data
+	\item Ophalen van data
+	\item Eigen structuren aan brengen (JSON classes)
+	\item Filtering van resultaten (User-focused queries)
+\end{itemize}
+
 \section{Interfacen met externe API's}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Soms is het gebruik van een Appsemble-gehoste API niet genoeg. Een eindgebruiker kan aan limieten komen die vanuit Appsemble zelf komen of heeft simpelweg complexere functies nodig. \\ 
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Hiervoor moet het mogelijk zijn om gemakkelijk met externe api's te communiceren. Hiermee kan een developer het weer ophalen van het internet of een interface maken met een bestaand network.\footnote{Bijvoorbeeld interne API's, Google services en meer}
+
+\subsection{Risico's}
+
+Het maken van externe calls naar het internet brengt op zich wel een inherent risico met zich mee. Een kwaadwillende developer kan hiermee payloads downloaden en installeren via bestaande beveiligingslekken. Hiervoor zijn enkele oplossingen; \\
+
+\begin{tabular} { l | l }
+	\emph{Screening} & Apps die deze API gebruiken moeten gescreened worden op exploits. \\
+	\emph{Restricties op data} & Limieten zetten op de data die geladen kan worden (Enkel JSON) \\
+\end{tabular}
+
+Uiteindelijk zou het volgende in de API zitten
+
+\begin{itemize}
+	\item GET, HEAD, PUT, POST en DELETE http calls op arbitraire endpoints.
+	\item JSON data teruggeven
+\end{itemize}
+
+\section{Event Hooks}
+
+Inhaken op events is een goede manier om te reageren op de app. Een developer kan inhaken op het installeren van een component, het opstarten of het afsluiten van zijn component en meer.  \\
+
+Daarnaast kan een developer inhaken op systeem-events, zoals wifi-verbinding of een impending reboot. 
+\begin{itemize}
+	\item Inhaken op OS events
+	\item Zelf events kunnen versturen
+	\item Meewerken met events uit de app zelf
+\end{itemize}
+
+\section{Questionnaire}
+
+Er moet dus een plan opgesteld worden voor het ontwikkelen van de Appsemble SDK. Hierbij is er een kleine enquete gedaan om uit te vinden welke onderdelen van een SDK prioriteit hebben volgens developers. \\
+
+In de enquete worden vragen gesteld over de verschillende API's die beschikbaar kunnen worden gemaakt in de aankomende versie van de SDK. Er word eerst gevraagd welke componenten zij graag zouden zien in de appsemble SDK. Vervolgens word er aangegeven welk onderdeel zij het liefste zouden zien in de SDK. \\
+
+Voor het onderzoek, zie de appendix.
+
+\section{Prioriteiten}
+ % todo
