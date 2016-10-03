@@ -1,35 +1,61 @@
 \chapter{Hoe worden componenten gepubliceerd}
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Om deze componenten bruikbaar te maken moeten het voor de eindgebruiker makkelijk en veilig worden gemaakt om een custom component te gebruiken in het eigen project. Als hier iets fout aan is zullen gebruikers minder geneigd zijn om externe componenten te gebruiken. \\
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Om hier overheen te komen zal er dus een algemene oplossing moeten komen voor het verifie\"{e}ren en verspreiden van componenten. door middel van de volgende punten kan dit een stuk simpeler worden gemaakt.
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
 
-\section{Signing}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+\section{Veiligheid}
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+\subsection{Pre-release checks}
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Voor het waarborgen van kwaliteit kan er, voordat een pakketje toe word gestaan, een pre-release audit uitgevoerd. Hiermee kan er gekeken worden dat een component voldoet aan bepaalde eisen\footnote{Geen crashes, material UI en meer} en dat het geen malicious payloads probeert te downloaden. \\ 
 
-\section{Hosting}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Na het passeren van deze checks zou het component gepubliceerd worden. Dit betekent dat er een quality control is over de componenten die online worden gezet.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+\subsection{Signing}
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Signing is een manier om de integriteit van een pakketje te waarborgen. Door middel van een een digitale handtekeningen, die veriefie\"{e}rbaar is door anderen. \nocite{crypto1} \\
 
-\section{Marktplaats}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+De gemakkelijkste manier om te kijken of een pakketje afwijkt van de bron  is met een \emph{hash} van de file contents. De contents van een plugin worden door een hashing-algoritme getrokken\footnote{One-way hash met SHA}. Hier komt vervolgens een hash uit,  die de contents van de plugin beschrijft. \\
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+Als een gebruiker deze hash zelf uitvoert zal hij op hetzelfde getal uitkomen als de originele hash. De orginele hash kan dus vervolgens online gezet worden, waarna een gebruiker zijn hash kan vergelijken met de online beschikbare versie. Bij een mismatch zijn er dus\footnote{in transit} andere bestanden geleverd dan origineel bedoeld was. \\
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Een aanvaller kan echter de online hash aanpassen om deze overeen te laten komen met de nu aangepaste componenten. Dit betekent dat de zekerheid niet absoluut is. \\
 
-\section{Laden tijdens runtime}
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\\
+Een andere vorm kan komen door middel van \emph{Digital Signing}\footnote{Het digitaal ondertekenen van bestanden door middel van een PGP private-public-keypair}. Hiermee met de private key een handtekening gezet en gepubliceerd. Een gebruiker kan vervolgens met de public key verifie\"{e}ren dat de huidige handtekening en hash klopt.\cite{crypto1}
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. \\
+\subsection{Hosting}
 
-Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. 
+Componenten moeten ergens opgeslagen en geladen worden. De vraag hierbij is waar de verantwoordelijkheid moet liggen. \\
+
+Als eerste kan alles gehost worden vanaf Appsemble zelf. Dit betekent dat het laden altijd vanuit het bedrijf komt en er extra checks uitgevoerd kunnen worden. Daarnaast is het een gateway, waardoor kwaliteit gewaarborgd kan worden. Het nadeel is echter dat een hoop plugins veel plek in beslag zal nemen en appsenble deze dus moet hosten.
+
+De bestanden kunnen echter ook direct van externe bronnen geladen worden. Hierdoor worden component-developers zelf verantwoordelijk voor het hosten van een plugin. Hierbij kunnen dus echter geen checks worden uitgevoerd. Daarnaast vergrooot het de "barrier to entry".\footnote{Drempel om zelf een component te ontwikkelen en te verspreiden}\\
+
+ Een manier om dit te verspreiden is door JSON configs in een git repository of het inleveren van een kopie om up te loaden.
+
+\section{Verspreiding}
+\subsection{Marktplaats}
+
+Keer en keer opnieuw is bewezen dat het hebben van een online marktplaats de integratie bevorderd\footnote{Zie Google Play, Apple App Store, Wordpress themes en meer}. Developers kunnen hiermee op een redelijk makkelijke manier gevonden worden, terwijl gebruikers met veel gemak kunnen vinden wat zij nodig hebben. \\
+
+Een marktplaats is simpelweg een index van de gepubliceerde pakketjes. Een gebruiker kan hiermee simpelweg een component toevoegen. Om ervoor te zorgen dat de marktplaats makkelijk te gebruiken is zijn de volgende componenten aangeraden:
+
+\begin{itemize}
+	\item Voorpagina met geselecteerde componenten
+	\item Tags voor componenten
+	\item Een rating-systeem 
+	\item Sorteren van elementen (Op basis van rating, downloads, datum, etc)
+	\item Zoekfunctie (Doorzoeken via titel en tags)
+\end{itemize}
+
+\subsection{Laden tijdens runtime}
+
+Deze componenten moeten geladen worden voordat zij gebruikt kunnen worden. Er zijn twee grote manieren om componenten te laden op het web.
+
+Als eerste is het mogelijk om ieder beschikbaar component te laden tijdens runtime. Dit betekent echter dat de paginagrootte snel in de vele megabytes zou komen. Het zou er wel voor zorgen dat, zodra een pagina geladen is, de applicatie harstikke snel is. \\ 
+
+De andere mogelijkheid is het gebruiken van lazy loading, waarbij de componenten pas geladen worden als zij nodig zijn. Dit betekent dat iedere app een lijst van eigen componenten moet gaan laden. bij het opstarten van een app zal deze vervolgens zijn eigen resources injecteren, om zo ervoor te zorgen dat de aanwezige source files aanwezig zijn. \\
+
+De app moet hiervoor wel zelf weten welke componenten geladen moeten worden. Dit kan via document.write('source')

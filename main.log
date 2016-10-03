@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.29)  30 SEP 2016 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.29)  3 OCT 2016 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,6 +354,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count113
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count114
+\lst@currlwidth=\dimen119
+\lst@column=\count115
+\lst@pos=\count116
+\lst@lostspace=\dimen120
+\lst@width=\dimen121
+\lst@newlines=\count117
+\lst@lineno=\count118
+\lst@maxwidth=\dimen122
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
+\lst@framebox=\box31
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 \@indexfile=\write3
 \openout3 = `main.idx'.
 
@@ -362,33 +386,33 @@ Writing index file main.idx
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen119
-\scratchbox=\box30
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen120
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count121
+\scratchdimen=\dimen123
+\scratchbox=\box32
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen124
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -406,29 +430,30 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box33
 
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 14.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+\c@lstlisting=\count128
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -438,6 +463,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./before/inleiding.tex
 chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface .
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -469,13 +509,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 chapter 2.
 ) [2
 
-] (./main.toc)
+] (./main.toc [3
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./chapter/whats_missing.tex [1
-
-] [2]
+ (./chapter/whats_missing.tex [1]
 chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -502,14 +542,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[3
+[2
 
 ]) (./chapter/which_apis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 28--1
 
  []
 
-[4]
+[3]
 chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -532,7 +572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[5
+[4
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
@@ -554,7 +594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[6]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
@@ -579,7 +619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-) (./chapter/standard_sdk.tex [7] [8]
+) (./chapter/standard_sdk.tex [6] [7]
 chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -606,7 +646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[9
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
@@ -633,7 +673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-) (./chapter/our_sdk.tex [10] [11]
+) (./chapter/our_sdk.tex [9] [10]
 chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -660,7 +700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[12
+[11
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -677,20 +717,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-) (./chapter/publication.tex [13]
+) (./chapter/publication.tex [12]
 chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
@@ -700,14 +730,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[14
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
@@ -716,44 +749,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-) (./after/conclusies.tex [15] [16]
-chapter 8.
-) (./after/bibliography.tex (./main.bbl [17
-
-]))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
- [18
+[13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+) (./after/conclusies.tex [15]
+chapter 8.
+) (./after/bibliography.tex (./main.bbl [16
+
+]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
+ [17
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 35.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 8613 strings out of 493013
- 135257 string characters out of 6139317
- 318050 words of memory out of 5000000
- 12027 multiletter control sequences out of 15000+600000
+ 9957 strings out of 493013
+ 154333 string characters out of 6139317
+ 337626 words of memory out of 5000000
+ 13359 multiletter control sequences out of 15000+600000
  14149 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,66p,8844b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,66p,8844b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/a
@@ -762,7 +807,7 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (21 pages, 133022 bytes).
+Output written on main.pdf (21 pages, 138395 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
