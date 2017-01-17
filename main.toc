@@ -13,19 +13,18 @@
 \contentsline {subsection}{\numberline {4.4.1}Risico's}{5}
 \contentsline {section}{\numberline {4.5}Event Hooks}{5}
 \contentsline {section}{\numberline {4.6}Questionnaire}{5}
-\contentsline {section}{\numberline {4.7}Prioriteiten}{6}
-\contentsline {chapter}{\numberline {5}Wat zit er in een standaard SDK}{7}
-\contentsline {section}{\numberline {5.1}Tutorials}{7}
-\contentsline {section}{\numberline {5.2}Voorbeelden}{7}
-\contentsline {section}{\numberline {5.3}Documentatie}{7}
-\contentsline {chapter}{\numberline {6}Hoe worden componenten gepubliceerd}{8}
-\contentsline {section}{\numberline {6.1}Veiligheid}{8}
-\contentsline {subsection}{\numberline {6.1.1}Pre-release checks}{8}
-\contentsline {subsection}{\numberline {6.1.2}Signing}{8}
-\contentsline {subsection}{\numberline {6.1.3}Hosting}{9}
-\contentsline {section}{\numberline {6.2}Verspreiding}{9}
-\contentsline {subsection}{\numberline {6.2.1}Marktplaats}{9}
-\contentsline {subsection}{\numberline {6.2.2}Laden tijdens runtime}{10}
-\contentsline {chapter}{\numberline {7}Conclusies}{11}
-\contentsline {section}{\numberline {7.1}Implementatie}{11}
-\contentsline {section}{\numberline {7.2}Documentatie}{11}
+\contentsline {chapter}{\numberline {5}Wat zit er in een standaard SDK}{6}
+\contentsline {section}{\numberline {5.1}Tutorials}{6}
+\contentsline {section}{\numberline {5.2}Voorbeelden}{6}
+\contentsline {section}{\numberline {5.3}Documentatie}{6}
+\contentsline {chapter}{\numberline {6}Hoe worden componenten gepubliceerd}{7}
+\contentsline {section}{\numberline {6.1}Veiligheid}{7}
+\contentsline {subsection}{\numberline {6.1.1}Pre-release checks}{7}
+\contentsline {subsection}{\numberline {6.1.2}Signing}{7}
+\contentsline {subsection}{\numberline {6.1.3}Hosting}{8}
+\contentsline {section}{\numberline {6.2}Verspreiding}{8}
+\contentsline {subsection}{\numberline {6.2.1}Marktplaats}{8}
+\contentsline {subsection}{\numberline {6.2.2}Laden tijdens runtime}{9}
+\contentsline {chapter}{\numberline {7}Conclusies}{10}
+\contentsline {section}{\numberline {7.1}Implementatie}{10}
+\contentsline {section}{\numberline {7.2}Documentatie}{10}

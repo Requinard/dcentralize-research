@@ -1,0 +1,28 @@
+\BOOKMARK [0][-]{chapter.1}{Inleiding}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Samenvatting}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Wie ontwikkelt met Appsemble}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Groen\046Zo}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{App-S}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{DOCFeed}{chapter.3}% 6
+\BOOKMARK [0][-]{chapter.4}{Welke API's moeten beschikbaar zijn voor de eindgebruiker}{}% 7
+\BOOKMARK [1][-]{section.4.1}{Interfacen met app}{chapter.4}% 8
+\BOOKMARK [1][-]{section.4.2}{Instellingen}{chapter.4}% 9
+\BOOKMARK [1][-]{section.4.3}{Interfacen met Appsemble datastores}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.4}{Interfacen met externe API's}{chapter.4}% 11
+\BOOKMARK [2][-]{subsection.4.4.1}{Risico's}{section.4.4}% 12
+\BOOKMARK [1][-]{section.4.5}{Event Hooks}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.6}{Questionnaire}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.7}{Prioriteiten}{chapter.4}% 15
+\BOOKMARK [0][-]{chapter.5}{Wat zit er in een standaard SDK}{}% 16
+\BOOKMARK [1][-]{section.5.1}{Tutorials}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.2}{Voorbeelden}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.3}{Documentatie}{chapter.5}% 19
+\BOOKMARK [0][-]{chapter.6}{Hoe worden componenten gepubliceerd}{}% 20
+\BOOKMARK [1][-]{section.6.1}{Veiligheid}{chapter.6}% 21
+\BOOKMARK [2][-]{subsection.6.1.1}{Pre-release checks}{section.6.1}% 22
+\BOOKMARK [2][-]{subsection.6.1.2}{Signing}{section.6.1}% 23
+\BOOKMARK [2][-]{subsection.6.1.3}{Hosting}{section.6.1}% 24
+\BOOKMARK [1][-]{section.6.2}{Verspreiding}{chapter.6}% 25
+\BOOKMARK [2][-]{subsection.6.2.1}{Marktplaats}{section.6.2}% 26
+\BOOKMARK [2][-]{subsection.6.2.2}{Laden tijdens runtime}{section.6.2}% 27
+\BOOKMARK [0][-]{chapter.7}{Conclusies}{}% 28
